@@ -229,7 +229,7 @@
             background-color: #FFFFFF;
         }
 
-        .button {
+       .button {
             background-color: #016BE0;
             color: #FFFFFF;
             padding: 10px 24px;
@@ -238,7 +238,18 @@
             font-size: 14px;
             cursor: pointer;
             text-align: center;
-            width: 34%;
+            width: 40%;
+       
+         }
+/* Transfer button styles */
+.transfer-button {
+  background-color: #016BE0; /* Example: Blue */
+}
+
+/* Sell button styles */
+.sell-button {
+  background-color: #DDDDE1; /* Example: Green */
+}
             
         }
         
@@ -516,9 +527,12 @@ N' SWEET TOUR</h2>
 
         <!-- Transfer and Sell Buttons -->
         <div class="button-container">
-            <div class="button">Transfer</div>
-            <div class="button">Sell</div>
-        </div>
+        <!-- Transfer Button -->
+        <button class="button transfer-      button">Transfer</button>
+  
+       <!-- Sell Button -->
+      <button class="button sell-button">Sell</button>
+</div>
         
         <!-- Transfer Section -->
 <div id="transfer-section" style="display: none; position: fixed; bottom: 0; left: 0; width: 100%; height: 65%; background-color: white; box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); z-index: 1000; padding: 20px;">
